@@ -6,5 +6,5 @@ def line(people)
 end
 
 def take_a_number(people, name)
-  puts "welcome, #{name}. You are number #{people.length +1}"
+  puts "welcome, #{name}. You are number #{people.length}"
 end
