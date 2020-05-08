@@ -3,9 +3,10 @@ def line(people)
   if people.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: (, .)"
-
-  end
+    numbered_people = []
+    people.each do |i|
+      numbered_people.push "#{people.index(i) + 1}. #{i} " 
+    end
 end
 
 def take_a_number(people, name)
