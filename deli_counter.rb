@@ -21,3 +21,4 @@ def now_serving(people)
   else
     "Currently serving #{people[0]}."
   end
+end
