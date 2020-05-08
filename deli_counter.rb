@@ -5,7 +5,7 @@ def line(people)
   else
     numbered_people = []
     people.each do |i|
-      numbered_people.push "#{people.index(i) + 1}. #{i} " 
+      numbered_people.push "#{people.index(i) + 1}. #{i} "
     end
 end
 
