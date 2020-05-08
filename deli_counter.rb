@@ -7,7 +7,7 @@ def line(people)
     people.each do |i|
       numbered_people.push "#{people.index(i) + 1}. #{i} "
     end
-    numbered_people.join 
+    numbered_people.join
   end
 end
 
