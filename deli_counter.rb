@@ -14,3 +14,10 @@ def take_a_number(people, name)
   people.push(name)
   puts "Welcome, #{name}. You are number #{people.length} in line."
 end
+
+def now_serving(people)
+  if people.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+    "Currently serving #{people[0]}."
+  end
