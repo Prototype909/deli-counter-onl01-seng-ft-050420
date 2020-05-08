@@ -11,5 +11,6 @@ def line(people)
 end
 
 def take_a_number(people, name)
-  puts "Welcome, #{name}. You are number #{people.length + 1} in line."
+  people.push(name)
+  puts "Welcome, #{name}. You are number #{people.length} in line."
 end
